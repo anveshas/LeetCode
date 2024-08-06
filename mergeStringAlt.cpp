@@ -10,6 +10,8 @@ public:
             i++;j++;
         }
 
+
+
         for(;i < word1.length();i++){
             result.push_back(word1[i]);
         }
