@@ -1,3 +1,7 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -11,3 +15,9 @@ public:
         }
     }
 };
+int main(){
+    vector<int> nums = {12, 4, 2, 0, 5, 3, 0};
+    moveZeros(nums);
+    // cout << 
+    return 0;
+}
