@@ -12,7 +12,6 @@ public:
                 cnt++;
                 i++;
             }
-            ans += ch;
 
             if (cnt > 1) {
                 ans += to_string(cnt);
